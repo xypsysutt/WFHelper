@@ -1,0 +1,176 @@
+{
+    "name":"WF1440x3120",
+    "author":"Hey",
+    "description":"python3 ./main.py -c configs/wf/config.json",
+    "similarityThreshold":0.9,
+    "loopDelay" : [1,1],
+    "randomClickDelay":300,
+    "randomClickArea":[0,0,1,1],
+    "screenSize":[1440,3120],
+    "targetList":["mainTargets","abs"],
+    "mainTargets":[
+        {
+            "name" : "quit",
+            "path" : "die_restart.png",
+            "area" : [207,2343,651,2472],
+            "text" : "quit",
+            "description":"死亡时退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "confirm die",
+            "path" : "confirm_die.png",
+            "area" : [773,1882,1321,1983],
+            "text" : "confirm die",
+            "description":"死亡时退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "chose",
+            "path" : "start.png",
+            "area" : [630,960,1374,1193],
+            "text" : "chose",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "start2",
+            "path" : "start2.png",
+            "area" : [444,1876,996,1993],
+            "text" : "tart2",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "start3",
+            "path" : "start2.png",
+            "area" : [462,2378,955,2542],
+            "text" : "start3",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+
+        {
+            "name" : "chose",
+            "path" : "abs_chose_ji.png",
+            "area" : [39,946,1280,1183],
+            "text" : "选择极难度 abs",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "chose",
+            "path" : "abs_start_for_new_count.png",
+            "area" : [39,946,1280,1183],
+            "text" : "选择极难度 abs",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "confirm abs die",
+            "path" : "abs_confirm_die.png",
+            "area" : [444,1876,996,1993],
+            "text" : "上轮讨伐失败，确认放弃",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "confirm abs continue",
+            "path" : "abs_success_continue.png",
+            "area" : [476,2622,943,2753],
+            "text" : "上轮讨伐失败，确认放弃",
+            "description":"成功后继续",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "confirm abs continue",
+            "path" : "abs_success_continue2.png",
+            "area" : [800,2643,1205,2734],
+            "text" : "上轮讨伐失败，确认放弃",
+            "description":"成功后继续,再次挑战",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "open continue",
+            "path" : "abs_open_continue.png",
+            "area" : [60,2497,179,2542],
+            "text" : "开启continue",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "abs start",
+            "path" : "abs_start.png",
+            "area" : [462,2378,955,2542],
+            "text" : "abs_start",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "abs_confirm_die2",
+            "path" : "abs_confirm_die2.png",
+            "area" : [207,2343,651,2472],
+            "text" : "abs_confirm_die2",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "abs_confirm_die3",
+            "path" : "abs_confirm_die3.png",
+            "area" : [773,1882,1321,1983],
+            "text" : "abs_confirm_die3",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        }
+    ],
+    "abs":[
+        {
+            "name" : "chose",
+            "path" : "abs_chose_ji.png",
+            "area" : [39,946,1380,1183],
+            "text" : "选择极难度 abs",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "confirm abs die",
+            "path" : "abs_confirm_die.png",
+            "area" : [444,1876,996,1993],
+            "text" : "上轮讨伐失败，确认放弃",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "open continue",
+            "path" : "abs_open_continue.png",
+            "area" : [60,2497,179,2542],
+            "text" : "开启continue",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "abs start",
+            "path" : "abs_start.png",
+            "area" : [462,2378,955,2542],
+            "text" : "abs_start",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "abs_confirm_die2",
+            "path" : "abs_confirm_die2.png",
+            "area" : [207,2343,651,2472],
+            "text" : "abs_confirm_die2",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "abs_confirm_die3",
+            "path" : "abs_confirm_die3.png",
+            "area" : [773,1882,1321,1983],
+            "text" : "abs_confirm_die3",
+            "description":"确认退出",
+            "actions":[{"name":"click"}]
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "name":"WF1440x3120",
+    "author":"Hey",
+    "description":"python3 ./main.py -c configs/wf/config.json",
+    "similarityThreshold":0.9,
+    "loopDelay" : [1,1],
+    "randomClickDelay":600,
+    "randomClickArea":[0,0,1,1],
+    "screenSize":[1440,3120],
+    "targetList":["mainTargets","run_pool"],
+    "mainTargets":[
+        {
+            "name" : "by_supplements",
+            "path" : "supplements.png",
+            "area" : [200,2047,1191,2200],
+            "text" : "quit",
+            "description":"钻石购买体力",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "supplements_confirm",
+            "path" : "supllements_confirm.png",
+            "area" : [787,1889,1321,1983],
+            "text" : "confirm bought",
+            "description":"确认购买",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "supllements_confirm2",
+            "path" : "supllements_confirm2.png",
+            "area" : [451,1878,979,1979],
+            "text" : "confirm ok",
+            "description":"购买后点击 ok",
+            "actions":[{"name":"click"}]
+        },
+
+        {
+            "name" : "reset_pool",
+            "path" : "reset_pool.png",
+            "area" : [1168,616,1260,765],
+            "text" : "重置池子",
+            "description":"重置池子",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "reset_pool_confirm",
+            "path" : "reset_pool_confirm.png",
+            "area" : [787,1889,1321,1983],
+            "text" : "确认重置",
+            "description":"确认重置",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "reset_pool_confirm2",
+            "path" : "reset_pool_confirm2.png",
+            "area" : [451,1878,979,1979],
+            "text" : "确认重置 OK",
+            "description":"确认重置 OK",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "pull",
+            "path" : "pull.png",
+            "area" : [1000,1320,1230,1460],
+            "text" : "pull",
+            "description":"pull",
+            "actions":[{"name":"click"}]
+        }
+    ],
+    "run_pool":[
+        {
+            "name" : "reset_pool",
+            "path" : "reset_pool.png",
+            "area" : [1168,616,1260,765],
+            "text" : "重置池子",
+            "description":"重置池子",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "reset_pool_confirm",
+            "path" : "reset_pool_confirm.png",
+            "area" : [787,1889,1321,1983],
+            "text" : "确认重置",
+            "description":"确认重置",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "reset_pool_confirm2",
+            "path" : "reset_pool_confirm2.png",
+            "area" : [451,1878,979,1979],
+            "text" : "确认重置 OK",
+            "description":"确认重置 OK",
+            "actions":[{"name":"click"}]
+        },
+        {
+            "name" : "pull",
+            "path" : "pull.png",
+            "area" : [1000,1320,1230,1460],
+            "text" : "pull",
+            "description":"pull",
+            "actions":[{"name":"click"}]
+        }
+    ]
+}
